@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Tush creating miri!!!</Text>
+      <Text>Tush creating miri</Text>
     </View>
   );
 }
