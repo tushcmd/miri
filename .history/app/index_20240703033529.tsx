@@ -1,5 +1,4 @@
-import { ThemedText } from "@/components/ThemedText";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 
 export default function Index() {
   return (
@@ -8,9 +7,10 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        color: "white",
       }}
     >
-      <ThemedText>Tush creating miri!!!</ThemedText>
+      <Text>Tush creating miri!!!</Text>
     </View>
   );
 }
