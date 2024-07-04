@@ -40,7 +40,7 @@ export default function ProtectedLayout() {
 				name="about"
 				options={{
 					title: 'Settings',
-					tabBarIcon: ({ color }) => <FontAwesome5 name="info-circle" size={28} color={color} />,
+					tabBarIcon: ({ color }) => <FontAwesome5 name="info-circle"size={28} name="info-circle" color={color} />,
 				}}
 			/>
 		</Tabs>
