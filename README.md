@@ -1,50 +1,31 @@
-# miri - Personal Journalling App
+# Expo Supabase Starter
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![MIT License](https://img.shields.io/github/license/FlemingVincent/expo-supabase-starter)](https://github.com/FlemingVincent/expo-supabase-starter/blob/main/LICENSE)
 
-## Get started
+## Introduction
 
-1. Install dependencies
+This repository serves as a comprehensive starter project for developing Expo applications with Supabase as the backend. It integrates various technologies such as Expo Router for navigation, Tailwind CSS for styling, React-Hook-Form for form handling, Zod for schema validation, and TypeScript for type safety. By leveraging these powerful tools, this starter template provides a robust foundation for building modern, scalable, and efficient mobile applications.
 
-   ```bash
-   npm install
-   ```
+#### Disclaimer
 
-2. Start the app
+This is not supposed to be a template, boilerplate or a framework. It is an opinionated guide that shows how to do some things in a certain way. You are not forced to do everything exactly as it is shown here, decide what works best for you and your team and stay consistent with your style.
 
-   ```bash
-    npx expo start
-   ```
+## Table of Contents
 
-In the output, you'll find options to open the app in a
+- [💻 Application Overview](docs/application-overview.md)
+- [⚙️ Project Configuration](docs/project-configuration.md)
+- [🗄️ Project Structure](docs/project-structure.md)
+- [🧱 Components And Styling](docs/components-and-styling.md)
+- [🗃️ State Management](docs/state-management.md)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Contributing
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Contributions to this starter project are highly encouraged and welcome! If you have any suggestions, bug reports, or feature requests, please feel free to create an issue or submit a pull request. Let's work together to enhance the developer experience and make it easier for everyone to build exceptional Expo applications with Supabase.
 
-## Get a fresh project
+## License
 
-When you're ready, run:
+This repository is licensed under the MIT License. You are granted the freedom to use, modify, and distribute the code for personal or commercial purposes. For more details, please refer to the [LICENSE](https://github.com/FlemingVincent/supabase-starter/blob/main/LICENSE) file.
 
-```bash
-npm run reset-project
-```
+## Demo
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+https://github.com/FlemingVincent/expo-supabase-starter/assets/80268905/884ed027-4e4c-4fac-abc2-1f4a5df958f2

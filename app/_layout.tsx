@@ -3,7 +3,6 @@ import { Stack } from "expo-router";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import { SupabaseProvider } from "@/context/supabase-provider";
-import React from 'react';
 
 export {
 	// Catch any errors thrown by the Layout component.
