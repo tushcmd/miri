@@ -41,7 +41,7 @@ export default function TabThreeScreen() {
 				onPress={() => handleOpenLink("https://github.com/tushcmd/miri/issues")}
 			>
 				<Text>
-					Report Bug <FontAwesome name="bug" size={16} />
+					Report Bug <FontAwesome name="bug" size={24} />
 
 				</Text>
 			</Button>
