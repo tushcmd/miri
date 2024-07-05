@@ -42,7 +42,7 @@ export default function SignIn() {
 	}
 
 	return (
-		<SafeAreaView className="flex-1 px-4 py-8 bg-background">
+		<SafeAreaView className="flex-1 px-4 py-20 bg-background">
 			<View className="flex-1">
 				<H1 className="self-start">Sign In</H1>
 				<Muted className="self-start mb-5">
