@@ -12,7 +12,7 @@ export default function WelcomeScreen() {
 
 	return (
 		<SafeAreaView className="flex-1 p-4 bg-background">
-			<View className="flex items-center justify-center flex-1 gap-y-4 py-8">
+			<View className="flex items-center justify-center flex-1 gap-y-4">
 				<H1 className="text-center">Welcome to Miri</H1>
 				<Muted className="text-center">
 					Your best option atra journalling
