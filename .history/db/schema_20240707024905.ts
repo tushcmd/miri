@@ -1,6 +1,6 @@
-import { pgTable, serial, text, timestamp, integer, date, uuid } from 'drizzle-orm/pg-core';
+import { pgTable, serial, text, timestamp, integer, date, uuid, pgSchema } from 'drizzle-orm/pg-core';
 
-//const authSchema = pgSchema("auth");
+const authSchema = pgSchema("auth");
 
 // Not fixed completely
 // Reference https://www.answeroverflow.com/m/1145274270847598653 and https://github.com/supabase/supabase/issues/19883#issuecomment-2094656180

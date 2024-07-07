@@ -1,9 +1,8 @@
 import { defineConfig } from "drizzle-kit";
 
 import * as dotenv from "dotenv";
-
 dotenv.config({
-    path: '.env',
+    path: '.env.local',
 });
 
 if (!process.env.DATABASE_URL) {
@@ -16,5 +15,5 @@ export default defineConfig({
         url: process.env.DATABASE_URL,
     },
     schema: ['db/index.ts'],
-    out: './db/drizzle',
+    out: './drizzle',
 });

@@ -1,4 +1,4 @@
-import { pgTable, serial, text, timestamp, integer, date, uuid } from 'drizzle-orm/pg-core';
+import { pgTable, serial, text, timestamp, integer, date, uuid, pgSchema } from 'drizzle-orm/pg-core';
 
 //const authSchema = pgSchema("auth");
 
@@ -13,8 +13,6 @@ import { pgTable, serial, text, timestamp, integer, date, uuid } from 'drizzle-o
 export const users = pgTable('users', {
   //id: serial('id').primaryKey(),
   id: uuid("id").primaryKey(),
-  //avatar_url: text('text'),
-  //id: uuid('id').primaryKey().notNull().references(() => auth.users.id, { onDelete: 'cascade' }),
   username: text('username').notNull().unique(),
   email: text('email').notNull().unique(),
   passwordHash: text('password_hash').notNull(),
