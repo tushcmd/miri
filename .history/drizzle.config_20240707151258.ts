@@ -11,11 +11,10 @@ if (!process.env.DATABASE_URL) {
 }
 
 export default defineConfig({
-    //driver: "postgres",
     schemaFilter: ["public"],
     dialect: "postgresql",
     dbCredentials: {
-        url: process.env.DATABASE_URL!,
+        url: process.env.DATABASE_URL,
     },
     schema: ['db/index.ts'],
     out: './db/drizzle',

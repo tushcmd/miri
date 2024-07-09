@@ -60,12 +60,3 @@ export const journalEntries = pgTable("journal_entries", {
 	createdAt: timestamp("created_at").defaultNow(),
 	updatedAt: timestamp("updated_at").defaultNow(),
 });
-
-export type InsertProfile = typeof profiles.$inferInsert;
-export type SelectProfile = typeof profiles.$inferSelect;
-
-export type InsertCategory = typeof categories.$inferInsert;
-export type SelectCategory = typeof categories.$inferSelect;
-
-export type InsertEntry = typeof journalEntries.$inferInsert;
-export type SelectEntry = typeof journalEntries.$inferSelect;
